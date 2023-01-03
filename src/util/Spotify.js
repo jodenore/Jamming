@@ -1,6 +1,6 @@
 let accessToken;
 const CLIENT_ID = "dd038d579cf742c1ae634de14800b331";
-const REDIRECT_URI = "http://127.0.0.1:5173/";
+const REDIRECT_URI = "https://teal-puffpuff-9f8118.netlify.app/";
 const Spotify = {
   getAccessToken() {
     if (accessToken) {
